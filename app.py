@@ -6,8 +6,8 @@ from openpyxl.styles import Font, PatternFill, Alignment
 import tempfile
 
 st.set_page_config(
-    page_title="CBSE Ratio Calculator",
-    page_icon="📊",
+    page_title="Inno Dimention Calculator",
+    page_icon="⚙️",
     layout="wide"
 )
 
@@ -192,3 +192,4 @@ if generate:
             file_name=f"{final_name}.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         )
+st.title("Created by Ritik Chaudhary with ❤️")
