@@ -11,7 +11,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("📊 CBSE Multi-Ratio Calculator")
+st.title("📊 Inno Dimention Calculator")
 st.caption("Generate ratio-wise sheets with a styled Summary")
 
 # ================= UI =================
@@ -192,4 +192,4 @@ if generate:
             file_name=f"{final_name}.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         )
-st.title("Created by Ritik Chaudhary with ❤️")
+st.header("Created by Ritik Chaudhary with ❤️")
